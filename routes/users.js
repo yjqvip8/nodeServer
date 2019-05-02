@@ -11,7 +11,7 @@ router.get("/user",(req,res)=>{
         if(err) throw err;
         //如何判断插入成功————affectedRows
         if(result.length){
-            res.send({code:200,msg:"数据查询成功",data:result})
+            res.send({code:200,msg:"ok",data:result})
         }else{
             res.send({code:200,msg:"参数有误",data:result})
         }  
