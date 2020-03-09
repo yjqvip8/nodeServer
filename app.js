@@ -4,7 +4,7 @@ const shops = require("./routes/shop")
 const bodyParser = require("body-parser")
 
 var appServer = express();
-appServer.listen(8080,()=>{console.log("服务器正在运行...")})
+appServer.listen(8848,()=>{console.log("服务器正在运行...")})
 
 appServer.use(bodyParser.urlencoded({
     extended: false
